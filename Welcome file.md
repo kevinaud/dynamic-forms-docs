@@ -7,9 +7,10 @@
 
 ## Front End
 
- - The front end cons
+ - The front end consists of two VueJS applications
+	 - Dynamic Forms Editi (UI/Features/DynamicForms/vue/mains.js)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyMjQyNzAxLC04OTU4Mzc1NTksMTQ4Nz
-gxNTMyOF19
+eyJoaXN0b3J5IjpbLTIxMzYyNzkyODQsLTg5NTgzNzU1OSwxND
+g3ODE1MzI4XX0=
 -->
