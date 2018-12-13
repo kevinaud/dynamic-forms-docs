@@ -50,7 +50,16 @@
 			        ... on and on
 				}
 
-	
+				// The right way to solve this problem
+				public class FormRuleViewModelBuilder : IFormRuleVisitor {
+					public void Visit() {
+						// do something
+					}
+
+					public void Visit() {
+						// do someth
+					}
+				}
 		```  
 ## Front End
 
@@ -76,9 +85,9 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMjEyNTkzLC0zMjMxMjI5MzIsMTQxMD
-ExMDc3NCwtMjAyMzMwNzQxNCwxMzkxODI2NjA1LDE4NTI5MDcx
-NzMsMjA4ODMyNDEzNCwtMTIxNTU3MzM5NSw1Mzg1NzM0NzgsLT
-I1MTUyNjA5OSwtMjgyMTUxNDI2LC04OTU4Mzc1NTksMTQ4Nzgx
-NTMyOF19
+eyJoaXN0b3J5IjpbMTUzOTMwNTgwNywtMzIzMTIyOTMyLDE0MT
+AxMTA3NzQsLTIwMjMzMDc0MTQsMTM5MTgyNjYwNSwxODUyOTA3
+MTczLDIwODgzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTczNDc4LC
+0yNTE1MjYwOTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4
+MTUzMjhdfQ==
 -->
