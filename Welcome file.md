@@ -78,7 +78,7 @@
 				- But does everything really work? No, because they never added another if statement for `EvenNumberFormRule` to the code that is generating the View Models (or anywhere else where there is a bunch of if statements checking the type).
 				- Now let's say the View Models were being generated the second way, with a ViewModelBuilder that implements the `IFormRuleVisitor` interface.
 				- As soon as the method for `EvenNumberFormRule` got added to the `IFormRuleVisitor` interface, you would get a compile error saying something like "FormRuleViewModelBuilder does not implement the IFormRuleVisitor interface." 
-				- Right away you would know that you need to write the View Model conversion logic for 	`EvenNumberFormRule` and you know exactly where to put it.
+				- Right away you would know that you need to write the View Model conversion logic for 	`EvenNumberFormRule` and you would know exactly where to put it.
 ## Front End
 
  - The front end consists of two VueJS applications
@@ -103,9 +103,9 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzQwMzA5LC0zMjMxMjI5MzIsMTQxMD
-ExMDc3NCwtMjAyMzMwNzQxNCwxMzkxODI2NjA1LDE4NTI5MDcx
-NzMsMjA4ODMyNDEzNCwtMTIxNTU3MzM5NSw1Mzg1NzM0NzgsLT
-I1MTUyNjA5OSwtMjgyMTUxNDI2LC04OTU4Mzc1NTksMTQ4Nzgx
-NTMyOF19
+eyJoaXN0b3J5IjpbLTEzNTEyMjc1MjAsLTMyMzEyMjkzMiwxND
+EwMTEwNzc0LC0yMDIzMzA3NDE0LDEzOTE4MjY2MDUsMTg1Mjkw
+NzE3MywyMDg4MzI0MTM0LC0xMjE1NTczMzk1LDUzODU3MzQ3OC
+wtMjUxNTI2MDk5LC0yODIxNTE0MjYsLTg5NTgzNzU1OSwxNDg3
+ODE1MzI4XX0=
 -->
