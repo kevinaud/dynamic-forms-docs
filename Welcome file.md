@@ -74,8 +74,9 @@
 			- Here's what can go wrong if you decide to use a bunch of if statements instead of using a class that implements the Visitor interface
 				- Let's say the View Models were being generated the first way, by using if statements to check the concrete type of each rule.
 				- Someone goes in and creates a new Rule type, let's call it `EvenNumberFormRule`
-				- After that, they go and add a method for `EvenNumberFormRule` to the IFormRuleVisitor interface and run the application... everything works! No errors!
+				- After that, they go add a method for `EvenNumberFormRule` to the IFormRuleVisitor interface and run the application... everything works! No errors!
 				- But does everything really work? No, because they never added another if statement for `EvenNumberFormRule` to the code that is generating the View Models (or anywhere else where there is a bunch of if statements checking the type).
+				- Now let's say the View Models were being generated the second way, with a ViewModelBuilder 
 ## Front End
 
  - The front end consists of two VueJS applications
@@ -100,7 +101,7 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzU0OTY4NywtMzIzMTIyOTMyLDE0MT
+eyJoaXN0b3J5IjpbLTE2ODY5Mjk5NiwtMzIzMTIyOTMyLDE0MT
 AxMTA3NzQsLTIwMjMzMDc0MTQsMTM5MTgyNjYwNSwxODUyOTA3
 MTczLDIwODgzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTczNDc4LC
 0yNTE1MjYwOTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4
