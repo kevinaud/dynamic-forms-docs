@@ -32,7 +32,7 @@
 			- `CompositeFormRule`
 			- `IsNotSelectedFormRule`
 			- `IsSelectedFormRule`
-	- I designed it this way to make it easy to add new functionality to Dynamic Form Templates. Instead of the DynamicFormTemplate class having a list of Multiple Choice Questions AND a list of 
+	- I designed it this way to make it easy to add new functionality to Dynamic Form Templates. Instead of the DynamicFormTemplate class having a list of Multiple Choice Questions **and** a list of Text Questions **and** a list of Numeric Questions, etc. 
 
 ## Front End
 
@@ -58,8 +58,8 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ2MzM3MTYsMTg1MjkwNzE3MywyMD
-g4MzI0MTM0LC0xMjE1NTczMzk1LDUzODU3MzQ3OCwtMjUxNTI2
-MDk5LC0yODIxNTE0MjYsLTg5NTgzNzU1OSwxNDg3ODE1MzI4XX
-0=
+eyJoaXN0b3J5IjpbMTM5MTgyNjYwNSwxODUyOTA3MTczLDIwOD
+gzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTczNDc4LC0yNTE1MjYw
+OTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4MTUzMjhdfQ
+==
 -->
