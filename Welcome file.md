@@ -70,7 +70,8 @@
 				}
 		  ```  
 
-			- Why use 
+			- This is called the [Visitor Design Pattern](https://sourcemaking.com/design_patterns/visitor)
+			- Why use this?
 ## Front End
 
  - The front end consists of two VueJS applications
@@ -95,7 +96,7 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU5MjYwNCwtMzIzMTIyOTMyLDE0MT
+eyJoaXN0b3J5IjpbMTUwNDE2MTcxOSwtMzIzMTIyOTMyLDE0MT
 AxMTA3NzQsLTIwMjMzMDc0MTQsMTM5MTgyNjYwNSwxODUyOTA3
 MTczLDIwODgzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTczNDc4LC
 0yNTE1MjYwOTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4
