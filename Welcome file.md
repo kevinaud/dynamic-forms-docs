@@ -64,9 +64,11 @@
 				}
 
 				foreach (var rule in rules) {
-			        
+			        var builder = new FormRuleViewModelBuilder();
+			        rule.Accept(builder);
+			        var viewModel = builder.GetResult();
 				}
-		```  
+		  ```  
 ## Front End
 
  - The front end consists of two VueJS applications
@@ -91,9 +93,9 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc0MTEyOTMsLTMyMzEyMjkzMiwxND
-EwMTEwNzc0LC0yMDIzMzA3NDE0LDEzOTE4MjY2MDUsMTg1Mjkw
-NzE3MywyMDg4MzI0MTM0LC0xMjE1NTczMzk1LDUzODU3MzQ3OC
-wtMjUxNTI2MDk5LC0yODIxNTE0MjYsLTg5NTgzNzU1OSwxNDg3
-ODE1MzI4XX0=
+eyJoaXN0b3J5IjpbMTQ3ODA3NzE0MCwtMzIzMTIyOTMyLDE0MT
+AxMTA3NzQsLTIwMjMzMDc0MTQsMTM5MTgyNjYwNSwxODUyOTA3
+MTczLDIwODgzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTczNDc4LC
+0yNTE1MjYwOTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4
+MTUzMjhdfQ==
 -->
