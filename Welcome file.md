@@ -29,11 +29,12 @@
 		 - I strongly suggest you read [this article](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape) if you are trying to understand / change / add to the Store in either of the VueJS apps. I used that article as a reference when structuring the data so the way that I structured it will make more sense after you've read it.
 - Layout
 	 - In the Instance Renderer app I mostly used [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for the layout
-	 - In the Template Editor I made heavy use of a new 
+	 - In the Template Editor I made heavy use of a new CSS feature called [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) for the layout 
+	 - Normalized Data
+		 - For both the Template Editor app and Instance Rendering app I decided to "Normalize" 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTUzMTgwNiwxODUyOTA3MTczLDIwOD
-gzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTczNDc4LC0yNTE1MjYw
-OTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4MTUzMjhdfQ
-==
+eyJoaXN0b3J5IjpbOTI1ODExMDc2LDE4NTI5MDcxNzMsMjA4OD
+MyNDEzNCwtMTIxNTU3MzM5NSw1Mzg1NzM0NzgsLTI1MTUyNjA5
+OSwtMjgyMTUxNDI2LC04OTU4Mzc1NTksMTQ4NzgxNTMyOF19
 -->
