@@ -11,18 +11,14 @@
 	 - Dynamic Forms Editor
 		 - Source code folder: `UI/Features/DynamicForms/vue/`
 		 - Bundled Output: `UI/Content/js/DynamicForms.App.js`
-		 - This application is responsible for editing Dynamic Form Templates
-		 - Add/Edit/Delete Question Groups
-		 - Add/Edit/Delete Questions
-		 - Add/Edit/Delete Question Choices (If applicable)
-		 - Add/Edit rules for displaying questions
-		 - Add/Edit rules for result recommendations
-		 - 
+		 - This application is responsible for editing a Dynamic Form Template
 	- Dynamic Form Instance
 		 - Source code folder: `UI/Features/DynamicFormInstance/vue/`
 		 - Bundled Output: `UI/Content/js/DynamicFormInstance.App.js`
 		 - This application is responsible for rendering a Template in the form of an assessment that can be filled out, submitted, and attached to a book in
+	 - State Management
+	  - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjkwNzE2MywtMjUxNTI2MDk5LC0yOD
-IxNTE0MjYsLTg5NTgzNzU1OSwxNDg3ODE1MzI4XX0=
+eyJoaXN0b3J5IjpbLTE2NTY5NjkwNTUsLTI1MTUyNjA5OSwtMj
+gyMTUxNDI2LC04OTU4Mzc1NTksMTQ4NzgxNTMyOF19
 -->
