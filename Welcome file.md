@@ -12,7 +12,8 @@
 - DynamicFormInstance
 	- This is the domain model that gets associated with a BookIn. It is created based off of a DynamicFormTemplate when an assessment is submitted.
 - Polymorphism
-	- Many of the domain models for Dynamic Forms use the 
+	- Many of the domain models for Dynamic Forms take advantage of NHibernate's support for [Inheritance Mappings](http://nhibernate.info/doc/nhibernate-reference/inheritance.html)
+	- The strate
 
 ## Front End
 
@@ -38,7 +39,7 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODM5MzAwNSwxODUyOTA3MTczLDIwOD
+eyJoaXN0b3J5IjpbMjA3MjIyMzQ1MSwxODUyOTA3MTczLDIwOD
 gzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTczNDc4LC0yNTE1MjYw
 OTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4MTUzMjhdfQ
 ==
