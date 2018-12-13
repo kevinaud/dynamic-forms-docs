@@ -8,9 +8,11 @@
 ## Front End
 
  - The front end consists of two VueJS applications
-	 - Dynamic Forms Editi (UI/Features/DynamicForms/vue/mains.js)
+	 - Dynamic Forms Editor
+		 - Entry file: `UI/Features/DynamicForms/vue/mains.js`
+		 - Bundled Output `UI/Content/js/`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzYyNzkyODQsLTg5NTgzNzU1OSwxND
-g3ODE1MzI4XX0=
+eyJoaXN0b3J5IjpbLTkzMDk0NDc5MSwtODk1ODM3NTU5LDE0OD
+c4MTUzMjhdfQ==
 -->
