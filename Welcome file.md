@@ -15,8 +15,9 @@
 	- Dynamic Form Instance
 		 - Source code folder: `UI/Features/DynamicFormInstance/vue/`
 		 - Bundled Output: `UI/Content/js/DynamicFormInstance.App.js`
+		 - This application is responsible for rendering a Template in the form of an assessment 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0OD
-c4MTUzMjhdfQ==
+eyJoaXN0b3J5IjpbLTI1MTUyNjA5OSwtMjgyMTUxNDI2LC04OT
+U4Mzc1NTksMTQ4NzgxNTMyOF19
 -->
