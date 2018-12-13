@@ -47,12 +47,20 @@
 			            // do something
 			        }
 			        ... on and on
-    }
+				}
 		```  
-- asdf
-	-  	The right way to solve that problem:
-		- asdf
-                    - hello
+	- The wrong way to solve that problem:
+			```
+			    foreach (var rule in rules) {
+			        if (rule is TotalPointsComparisonFormRule) {
+			            // do something
+			        }
+			        if (rule is IsSelectedFormRule) {
+			            // do something
+			        }
+			        ... on and on
+				}
+		```  
 
 ## Front End
 
@@ -78,9 +86,9 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzUyMTcwNjcsLTMyMzEyMjkzMiwxND
-EwMTEwNzc0LC0yMDIzMzA3NDE0LDEzOTE4MjY2MDUsMTg1Mjkw
-NzE3MywyMDg4MzI0MTM0LC0xMjE1NTczMzk1LDUzODU3MzQ3OC
-wtMjUxNTI2MDk5LC0yODIxNTE0MjYsLTg5NTgzNzU1OSwxNDg3
-ODE1MzI4XX0=
+eyJoaXN0b3J5IjpbOTE5MzkyODgxLC0zMjMxMjI5MzIsMTQxMD
+ExMDc3NCwtMjAyMzMwNzQxNCwxMzkxODI2NjA1LDE4NTI5MDcx
+NzMsMjA4ODMyNDEzNCwtMTIxNTU3MzM5NSw1Mzg1NzM0NzgsLT
+I1MTUyNjA5OSwtMjgyMTUxNDI2LC04OTU4Mzc1NTksMTQ4Nzgx
+NTMyOF19
 -->
