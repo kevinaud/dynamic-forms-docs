@@ -26,9 +26,10 @@
 	 - The Dynamic Form Instance app uses a single file to define the Store, since there is far less state to manage in this app, but in the future it might make sense to split it up into modules as well. The store file can be found at `UI/Features/DynamicFormInstance/vue/store.js`
 	 - Normalized Data
 		 - For both the Template Editor app and Instance Rendering app I decided to "Normalize" the state data. This is considered a best practice when using redux and, although it looks strange at first, it makes it much easier to work with nested/relational state.
-		 - I strongly suggest you read [this article](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape) if you are trying to understand / make changes to the Store for either of the VueJS apps. I used that article as a reference when structuring the data so they that I structured it will make 
+		 - I strongly suggest you read [this article](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape) if you are trying to understand / change / add to the Store in either of the VueJS apps. I used that article as a reference when structuring the data so the way that I structured it will make more sense after you've read it.
+ - Layout
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3OTA1MTU4LDIwODgzMjQxMzQsLTEyMT
-U1NzMzOTUsNTM4NTczNDc4LC0yNTE1MjYwOTksLTI4MjE1MTQy
-NiwtODk1ODM3NTU5LDE0ODc4MTUzMjhdfQ==
+eyJoaXN0b3J5IjpbMTg1MjkwNzE3MywyMDg4MzI0MTM0LC0xMj
+E1NTczMzk1LDUzODU3MzQ3OCwtMjUxNTI2MDk5LC0yODIxNTE0
+MjYsLTg5NTgzNzU1OSwxNDg3ODE1MzI4XX0=
 -->
