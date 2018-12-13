@@ -19,9 +19,9 @@
 	- State Management
 		 - Both VueJS applications use [Vuex](https://vuex.vuejs.org/) (VueJS implementation of redux) for state management
 		 - The Dynamic Form Template Editor app uses [Vuex Modules](https://vuex.vuejs.org/guide/modules.html) to split up the state management for the different pieces of the template (Question Groups, Questions, Question Choices, Rules, Actions, etc.)
-		 - The Dynamic Form Instance app uses a single file to define the Store (since there is far less state to manage in this app)
+		 - The Dynamic Form Instance app uses a single file to define the Store, since there is far less state to manage in this app, but in the future it might make sense to split it up into modules as well
 	 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkzMjY1NDMsLTI1MTUyNjA5OSwtMj
-gyMTUxNDI2LC04OTU4Mzc1NTksMTQ4NzgxNTMyOF19
+eyJoaXN0b3J5IjpbNTM4NTczNDc4LC0yNTE1MjYwOTksLTI4Mj
+E1MTQyNiwtODk1ODM3NTU5LDE0ODc4MTUzMjhdfQ==
 -->
