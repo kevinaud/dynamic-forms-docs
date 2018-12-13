@@ -1,4 +1,5 @@
 
+
 # Dynamic Forms - Overview
 
 > If you ever need an explanation that you can't find in this
@@ -34,10 +35,24 @@
 			- `IsSelectedFormRule`
 	- I designed it this way to make it easy to add new functionality to Dynamic Form Templates. Instead of the DynamicFormTemplate class having a list of Multiple Choice Questions **and** a list of Text Questions **and** a list of Numeric Questions, etc. it simply has a list of Questions. It doesn't care what kind of questions are in the list, it doesn't care if a new type of question is added, it just treats them all as questions.
 	- Logic that is different for each subclass
-		- There are some scenarios where you can't just treat everything like a Question. Sometimes it matters if it is a Multiple Choice Question or a Text Question.
-		- One example is when you need to take a list of Questions and convert them into their respective view models. The view model for a Text Question is different than the view model for a Multiple Choice Question because there are some properties that exist on a Multiple Choice Question and not on a Text Question (like a list of Choices).
+		- There are some scenarios where you can't just treat everything the same. Sometimes it matters if it is a IsSelectedFormRule or a TotalPointsComparisonFormRule.
+		- One example is when you need to take a list of FormRules and convert them into their respective view models. The view model for an IsSelectedFormRule is different than the view model for a TotalPointsFormRule because there are some properties that exist on an IsSelectedFormRule but not on a TotalPointsFormRule, and vice versa.
 		- The wrong way to solve that problem:
-    
+			```
+			    foreach (var rule in rules) {
+			        if (rule is TotalPointsComparisonFormRule) {
+			            // do something
+			        }
+			        if (rule is IsSelectedFormRule) {
+			            // do something
+			        }
+			        ... on and on
+    }
+		```  
+- asdf
+	-  	The right way to solve that problem:
+		- asdf
+                    - hello
 
 ## Front End
 
@@ -63,8 +78,9 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzEyMjkzMiwxNDEwMTEwNzc0LC0yMD
-IzMzA3NDE0LDEzOTE4MjY2MDUsMTg1MjkwNzE3MywyMDg4MzI0
-MTM0LC0xMjE1NTczMzk1LDUzODU3MzQ3OCwtMjUxNTI2MDk5LC
-0yODIxNTE0MjYsLTg5NTgzNzU1OSwxNDg3ODE1MzI4XX0=
+eyJoaXN0b3J5IjpbLTE3MzUyMTcwNjcsLTMyMzEyMjkzMiwxND
+EwMTEwNzc0LC0yMDIzMzA3NDE0LDEzOTE4MjY2MDUsMTg1Mjkw
+NzE3MywyMDg4MzI0MTM0LC0xMjE1NTczMzk1LDUzODU3MzQ3OC
+wtMjUxNTI2MDk5LC0yODIxNTE0MjYsLTg5NTgzNzU1OSwxNDg3
+ODE1MzI4XX0=
 -->
