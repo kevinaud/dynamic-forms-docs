@@ -6,7 +6,8 @@
 > call at 540-905-9197
 
 ## Back End
- - The main domain model is DynamicFormTemplate. Each type of assessment is associated with one 
+ - The main domain model is DynamicFormTemplate. 
+	 - Each type of assessment is associated with one DynamicFormTemplate per organization. For example, Tarrant County has a DynamicFormTemplate for the Custody Level Assessment and Dallas county has a 
 
 ## Front End
 
@@ -24,7 +25,7 @@
 	 - The Dynamic Form Template Editor app uses [Vuex Modules](https://vuex.vuejs.org/guide/modules.html) to split up the state management for the different pieces of the template (Question Groups, Questions, Question Choices, Rules, Actions, etc.). The modules can be found at `UI/Features/DynamicForms/vue/store/modules/`
 	 - The Dynamic Form Instance app uses a single file to define the Store, since there is far less state to manage in this app, but in the future it might make sense to split it up into modules as well. The store file can be found at `UI/Features/DynamicFormInstance/vue/store.js`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjcxMDYxNCwyMDg4MzI0MTM0LC0xMj
+eyJoaXN0b3J5IjpbMTY0ODMzMDI2NywyMDg4MzI0MTM0LC0xMj
 E1NTczMzk1LDUzODU3MzQ3OCwtMjUxNTI2MDk5LC0yODIxNTE0
 MjYsLTg5NTgzNzU1OSwxNDg3ODE1MzI4XX0=
 -->
