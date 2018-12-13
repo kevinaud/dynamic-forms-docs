@@ -7,8 +7,9 @@
 
 ## Front End
 
- - The front end of 
+ - The front end cons
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTgzNzU1OSwxNDg3ODE1MzI4XX0=
+eyJoaXN0b3J5IjpbNzEyMjQyNzAxLC04OTU4Mzc1NTksMTQ4Nz
+gxNTMyOF19
 -->
