@@ -20,16 +20,18 @@
 		 - Source code folder: `UI/Features/DynamicFormInstance/vue/`
 		 - Bundled Output: `UI/Content/js/DynamicFormInstance.App.js`
 		 - This application is responsible for rendering a Template in the form of an assessment that can be filled out, submitted, and attached to a book in
-- State Management
+ - State Management
 	 - Both VueJS applications use [Vuex](https://vuex.vuejs.org/) (VueJS implementation of redux) for state management
 	 - The Dynamic Form Template Editor app uses [Vuex Modules](https://vuex.vuejs.org/guide/modules.html) to split up the state management for the different pieces of the template (Question Groups, Questions, Question Choices, Rules, Actions, etc.). The modules can be found at `UI/Features/DynamicForms/vue/store/modules/`
 	 - The Dynamic Form Instance app uses a single file to define the Store, since there is far less state to manage in this app, but in the future it might make sense to split it up into modules as well. The store file can be found at `UI/Features/DynamicFormInstance/vue/store.js`
 	 - Normalized Data
 		 - For both the Template Editor app and Instance Rendering app I decided to "Normalize" the state data. This is considered a best practice when using redux and, although it looks strange at first, it makes it much easier to work with nested/relational state.
 		 - I strongly suggest you read [this article](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape) if you are trying to understand / change / add to the Store in either of the VueJS apps. I used that article as a reference when structuring the data so the way that I structured it will make more sense after you've read it.
- - Layout
+- State Management
+	 - Both VueJS applications use [Vuex](https://vuex.vuejs.org/) (VueJS implementation of redux) for state management
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjkwNzE3MywyMDg4MzI0MTM0LC0xMj
-E1NTczMzk1LDUzODU3MzQ3OCwtMjUxNTI2MDk5LC0yODIxNTE0
-MjYsLTg5NTgzNzU1OSwxNDg3ODE1MzI4XX0=
+eyJoaXN0b3J5IjpbMjU3MTc2OTQyLDE4NTI5MDcxNzMsMjA4OD
+MyNDEzNCwtMTIxNTU3MzM5NSw1Mzg1NzM0NzgsLTI1MTUyNjA5
+OSwtMjgyMTUxNDI2LC04OTU4Mzc1NTksMTQ4NzgxNTMyOF19
 -->
