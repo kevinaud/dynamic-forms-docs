@@ -11,11 +11,12 @@
 	 - Dynamic Forms Editor
 		 - Source code folder: `UI/Features/DynamicForms/vue/`
 		 - Bundled Output: `UI/Content/js/DynamicForms.App.js`
+		 - This application is responsible for editing Dynamic Form Templates
 	- Dynamic Form Instance
 		 - Source code folder: `UI/Features/DynamicFormInstance/vue/`
 		 - Bundled Output: `UI/Content/js/DynamicFormInstance.App.js`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAyNzU0NjYsLTg5NTgzNzU1OSwxND
-g3ODE1MzI4XX0=
+eyJoaXN0b3J5IjpbLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0OD
+c4MTUzMjhdfQ==
 -->
