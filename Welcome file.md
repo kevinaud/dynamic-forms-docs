@@ -75,6 +75,7 @@
 				- Let's say the View Models were being generated the first way, by using if statements to check the concrete type of each rule.
 				- Someone goes in and creates a new Rule type, let's call it `EvenNumberFormRule`
 				- After that, they go and add a method for `EvenNumberFormRule` to the IFormRuleVisitor interface and run the application... everything works! No errors!
+				- But does everything really work? No, because they never added another if statement for `EvenNumberFormRule` to the code that is generating the View Models (or god knows where else )
 ## Front End
 
  - The front end consists of two VueJS applications
@@ -99,9 +100,9 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjQzOTY5MSwtMzIzMTIyOTMyLDE0MT
-AxMTA3NzQsLTIwMjMzMDc0MTQsMTM5MTgyNjYwNSwxODUyOTA3
-MTczLDIwODgzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTczNDc4LC
-0yNTE1MjYwOTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4
-MTUzMjhdfQ==
+eyJoaXN0b3J5IjpbLTEzNTA3MTgwNjgsLTMyMzEyMjkzMiwxND
+EwMTEwNzc0LC0yMDIzMzA3NDE0LDEzOTE4MjY2MDUsMTg1Mjkw
+NzE3MywyMDg4MzI0MTM0LC0xMjE1NTczMzk1LDUzODU3MzQ3OC
+wtMjUxNTI2MDk5LC0yODIxNTE0MjYsLTg5NTgzNzU1OSwxNDg3
+ODE1MzI4XX0=
 -->
