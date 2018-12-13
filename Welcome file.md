@@ -15,19 +15,23 @@
 	- Many of the domain models for Dynamic Forms take advantage of [NHibernate's support for Inheritance Mappings](http://nhibernate.info/doc/nhibernate-reference/inheritance.html)
 	- There are multiple inheritance mapping strategies supported by NHibernate, the one I used is Table per Class Hierarchy
 	- The Domain Models this applies to (at the time this was written) are:
-		- `DynamicFormQuestion`, extended by
+		- `DynamicFormQuestion`, an abstract class extended by
 			- `DynamicFormMultipleChoiceQuestion`
 			- `DynamicFormTextQuestion`
 			- `DynamicFormNumericQuestion`
 			- `DynamicFormDecimalQuestion`
-		- `FormEffect`, extended by
+		- `FormEffect`, an abstract class extended by
 			- `HideQuestionEffect`
 			- `ShowQuestoinEffect`
-		- `FormAction`, extended by
+		- `FormAction`, an abstract class extended by
 			- `SetCustodyLevelAction`
-		- `FormRule`, extended by
+		- `FormRule`, an abstract class extended by
 			- `AlwaysTrueFormRule`
-			- C
+			- `GroupPointsComparisonFormRule`
+			- `TotalPointsComparisonFormRule`
+			- `CompositeFormRule`
+			- `IsNotSelectedFormRule`
+			- `IsSelectedFormRule`
 
 ## Front End
 
@@ -53,8 +57,8 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MzQ2NzY1MCwxODUyOTA3MTczLDIwOD
-gzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTczNDc4LC0yNTE1MjYw
-OTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4MTUzMjhdfQ
-==
+eyJoaXN0b3J5IjpbLTEwNjc5NTMxMzgsMTg1MjkwNzE3MywyMD
+g4MzI0MTM0LC0xMjE1NTczMzk1LDUzODU3MzQ3OCwtMjUxNTI2
+MDk5LC0yODIxNTE0MjYsLTg5NTgzNzU1OSwxNDg3ODE1MzI4XX
+0=
 -->
