@@ -52,13 +52,19 @@
 
 				// The right way to solve this problem
 				public class FormRuleViewModelBuilder : IFormRuleVisitor {
-					public void Visit() {
+					public void Visit(IsSelectedFormRule rule) {
 						// do something
 					}
 
-					public void Visit() {
-						// do someth
+					public void Visit(TotalPointsComparisonFormRule rule) {
+						// do something
 					}
+					
+					... on and on
+				}
+
+				foreach (var rule in rules) {
+			        
 				}
 		```  
 ## Front End
@@ -85,9 +91,9 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTMwNTgwNywtMzIzMTIyOTMyLDE0MT
-AxMTA3NzQsLTIwMjMzMDc0MTQsMTM5MTgyNjYwNSwxODUyOTA3
-MTczLDIwODgzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTczNDc4LC
-0yNTE1MjYwOTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4
-MTUzMjhdfQ==
+eyJoaXN0b3J5IjpbLTE0NTc0MTEyOTMsLTMyMzEyMjkzMiwxND
+EwMTEwNzc0LC0yMDIzMzA3NDE0LDEzOTE4MjY2MDUsMTg1Mjkw
+NzE3MywyMDg4MzI0MTM0LC0xMjE1NTczMzk1LDUzODU3MzQ3OC
+wtMjUxNTI2MDk5LC0yODIxNTE0MjYsLTg5NTgzNzU1OSwxNDg3
+ODE1MzI4XX0=
 -->
