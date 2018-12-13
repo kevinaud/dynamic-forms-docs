@@ -33,6 +33,7 @@
 			- `IsNotSelectedFormRule`
 			- `IsSelectedFormRule`
 	- I designed it this way to make it easy to add new functionality to Dynamic Form Templates. Instead of the DynamicFormTemplate class having a list of Multiple Choice Questions **and** a list of Text Questions **and** a list of Numeric Questions, etc. it simply has a list of Questions. It doesn't care what kind of questions are in the list, it doesn't care if a new type of question is added, it just treats them all as questions.
+	- How to add logic that is different for each 
 
 ## Front End
 
@@ -58,8 +59,8 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDI4MTMyNTgsMTM5MTgyNjYwNSwxOD
-UyOTA3MTczLDIwODgzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTcz
-NDc4LC0yNTE1MjYwOTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LD
-E0ODc4MTUzMjhdfQ==
+eyJoaXN0b3J5IjpbLTg3NzY5NDEwMSwxMzkxODI2NjA1LDE4NT
+I5MDcxNzMsMjA4ODMyNDEzNCwtMTIxNTU3MzM5NSw1Mzg1NzM0
+NzgsLTI1MTUyNjA5OSwtMjgyMTUxNDI2LC04OTU4Mzc1NTksMT
+Q4NzgxNTMyOF19
 -->
