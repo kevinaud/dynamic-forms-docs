@@ -37,7 +37,10 @@
 		- There are some scenarios where you can't just treat everything like a Question. Sometimes it matters if it is a Multiple Choice Question or a Text Question.
 		- One example is when you need to take a list of Questions and convert them into their respective view models. The view model for a Text Question is different than the view model for a Multiple Choice Question because there are some properties that exist on a Multiple Choice Question and not on a Text Question (like a list of Choices).
 		- The wrong way to solve that problem:
-			``	
+    `foreach (var question in questions) {`
+    `if (question is )`
+  ``
+    ``
 
     
 
@@ -65,8 +68,8 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczODc3NDQ4LC0yMDIzMzA3NDE0LDEzOT
-E4MjY2MDUsMTg1MjkwNzE3MywyMDg4MzI0MTM0LC0xMjE1NTcz
-Mzk1LDUzODU3MzQ3OCwtMjUxNTI2MDk5LC0yODIxNTE0MjYsLT
-g5NTgzNzU1OSwxNDg3ODE1MzI4XX0=
+eyJoaXN0b3J5IjpbMTc2MzcxNzc1NSwtMjAyMzMwNzQxNCwxMz
+kxODI2NjA1LDE4NTI5MDcxNzMsMjA4ODMyNDEzNCwtMTIxNTU3
+MzM5NSw1Mzg1NzM0NzgsLTI1MTUyNjA5OSwtMjgyMTUxNDI2LC
+04OTU4Mzc1NTksMTQ4NzgxNTMyOF19
 -->
