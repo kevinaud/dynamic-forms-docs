@@ -71,7 +71,9 @@
 		  ```  
 
 			- This is called the [Visitor Design Pattern](https://sourcemaking.com/design_patterns/visitor)
-			- Here's what can go wrong if you decided to use a bunch of if statements instead of 
+			- Here's what can go wrong if you decided to use a bunch of if statements instead of using a class that implements the Visitor interface
+				- Let's say the View Models were being generated the first way, by using if statements to check the concrete type of each rule.
+				- Someone goes in and Creates a new 
 ## Front End
 
  - The front end consists of two VueJS applications
@@ -96,9 +98,9 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzOTg4MTAyLC0zMjMxMjI5MzIsMTQxMD
-ExMDc3NCwtMjAyMzMwNzQxNCwxMzkxODI2NjA1LDE4NTI5MDcx
-NzMsMjA4ODMyNDEzNCwtMTIxNTU3MzM5NSw1Mzg1NzM0NzgsLT
-I1MTUyNjA5OSwtMjgyMTUxNDI2LC04OTU4Mzc1NTksMTQ4Nzgx
-NTMyOF19
+eyJoaXN0b3J5IjpbLTY1MjAwMTE4OCwtMzIzMTIyOTMyLDE0MT
+AxMTA3NzQsLTIwMjMzMDc0MTQsMTM5MTgyNjYwNSwxODUyOTA3
+MTczLDIwODgzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTczNDc4LC
+0yNTE1MjYwOTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4
+MTUzMjhdfQ==
 -->
