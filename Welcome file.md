@@ -18,11 +18,11 @@
 		 - This application is responsible for rendering a Template in the form of an assessment that can be filled out, submitted, and attached to a book in
 	- State Management
 		 - Both VueJS applications use [Vuex](https://vuex.vuejs.org/) (VueJS implementation of redux) for state management
-		 - The Dynamic Form Template Editor app uses [Vuex Modules](https://vuex.vuejs.org/guide/modules.html) to split up the state management for the different pieces of the template (Question Groups, Questions, Question Choices, Rules, Actions, etc.). The modules can be found at `UI/`
+		 - The Dynamic Form Template Editor app uses [Vuex Modules](https://vuex.vuejs.org/guide/modules.html) to split up the state management for the different pieces of the template (Question Groups, Questions, Question Choices, Rules, Actions, etc.). The modules can be found at `UI/Features/`
 		 - The Dynamic Form Instance app uses a single file to define the Store, since there is far less state to manage in this app, but in the future it might make sense to split it up into modules as well
 	 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU1NzMzOTUsNTM4NTczNDc4LC0yNT
-E1MjYwOTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LDE0ODc4MTUz
-MjhdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjg5MDM1MTksLTEyMTU1NzMzOTUsNT
+M4NTczNDc4LC0yNTE1MjYwOTksLTI4MjE1MTQyNiwtODk1ODM3
+NTU5LDE0ODc4MTUzMjhdfQ==
 -->
