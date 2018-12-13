@@ -30,11 +30,11 @@
 - Layout
 	 - In the Instance Renderer app I mostly used [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for the layout
 	 - In the Template Editor I made heavy use of a new CSS feature called [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) for the layout 
-	 - Normalized Data
-		 - For both the Template Editor app and Instance Rendering app I decided to "Normalize" 
+		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1ODExMDc2LDE4NTI5MDcxNzMsMjA4OD
-MyNDEzNCwtMTIxNTU3MzM5NSw1Mzg1NzM0NzgsLTI1MTUyNjA5
-OSwtMjgyMTUxNDI2LC04OTU4Mzc1NTksMTQ4NzgxNTMyOF19
+eyJoaXN0b3J5IjpbLTIwMDA1MDA2MDQsMTg1MjkwNzE3MywyMD
+g4MzI0MTM0LC0xMjE1NTczMzk1LDUzODU3MzQ3OCwtMjUxNTI2
+MDk5LC0yODIxNTE0MjYsLTg5NTgzNzU1OSwxNDg3ODE1MzI4XX
+0=
 -->
