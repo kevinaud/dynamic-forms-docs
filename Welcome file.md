@@ -35,7 +35,11 @@
 	- I designed it this way to make it easy to add new functionality to Dynamic Form Templates. Instead of the DynamicFormTemplate class having a list of Multiple Choice Questions **and** a list of Text Questions **and** a list of Numeric Questions, etc. it simply has a list of Questions. It doesn't care what kind of questions are in the list, it doesn't care if a new type of question is added, it just treats them all as questions.
 	- Logic that is different for each subclass
 		- There are some scenarios where you can't just treat everything like a Question. Sometimes it matters if it is a Multiple Choice Question or a Text Question.
-		- One example is when you need to take a list of Questions and convert them into their respective view models. The view model for a Text Question is different than the view model for a Multiple Choice Question because there are some properties that exist on a Multiple Choice Question and not on a Text Question (like the list of Choices for that question). 
+		- One example is when you need to take a list of Questions and convert them into their respective view models. The view model for a Text Question is different than the view model for a Multiple Choice Question because there are some properties that exist on a Multiple Choice Question and not on a Text Question (like a list of Choices).
+		- The wrong way to solve that problem:
+			``	
+
+    
 
 ## Front End
 
@@ -61,8 +65,8 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMzMDc0MTQsMTM5MTgyNjYwNSwxOD
-UyOTA3MTczLDIwODgzMjQxMzQsLTEyMTU1NzMzOTUsNTM4NTcz
-NDc4LC0yNTE1MjYwOTksLTI4MjE1MTQyNiwtODk1ODM3NTU5LD
-E0ODc4MTUzMjhdfQ==
+eyJoaXN0b3J5IjpbMzczODc3NDQ4LC0yMDIzMzA3NDE0LDEzOT
+E4MjY2MDUsMTg1MjkwNzE3MywyMDg4MzI0MTM0LC0xMjE1NTcz
+Mzk1LDUzODU3MzQ3OCwtMjUxNTI2MDk5LC0yODIxNTE0MjYsLT
+g5NTgzNzU1OSwxNDg3ODE1MzI4XX0=
 -->
