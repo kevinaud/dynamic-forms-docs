@@ -25,9 +25,10 @@
 	 - The Dynamic Form Template Editor app uses [Vuex Modules](https://vuex.vuejs.org/guide/modules.html) to split up the state management for the different pieces of the template (Question Groups, Questions, Question Choices, Rules, Actions, etc.). The modules can be found at `UI/Features/DynamicForms/vue/store/modules/`
 	 - The Dynamic Form Instance app uses a single file to define the Store, since there is far less state to manage in this app, but in the future it might make sense to split it up into modules as well. The store file can be found at `UI/Features/DynamicFormInstance/vue/store.js`
 	 - Normalized Data
-		 - For both the Template Editor app and Instance Rendering app I decided to "Normalize" the state data. 
+		 - For both the Template Editor app and Instance Rendering app I decided to "Normalize" the state data. This is considered a best practice when using redux and, although it looks strange at first, it makes it much easier to work with nested/relational state.
+		 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwMjUzNDEwLDIwODgzMjQxMzQsLTEyMT
-U1NzMzOTUsNTM4NTczNDc4LC0yNTE1MjYwOTksLTI4MjE1MTQy
-NiwtODk1ODM3NTU5LDE0ODc4MTUzMjhdfQ==
+eyJoaXN0b3J5IjpbLTczNDg1NTk5OSwyMDg4MzI0MTM0LC0xMj
+E1NTczMzk1LDUzODU3MzQ3OCwtMjUxNTI2MDk5LC0yODIxNTE0
+MjYsLTg5NTgzNzU1OSwxNDg3ODE1MzI4XX0=
 -->
