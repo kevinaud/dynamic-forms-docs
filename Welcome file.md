@@ -17,8 +17,8 @@
 		 - Bundled Output: `UI/Content/js/DynamicFormInstance.App.js`
 		 - This application is responsible for rendering a Template in the form of an assessment that can be filled out, submitted, and attached to a book in
 	- State Management
-		 - Both VueJS applications use [enter link description here](https://vuex.vuejs.org/)
+		 - Both VueJS applications use [Vuex](https://vuex.vuejs.org/) (VueJS implementation of redux) for state management
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTU0MzgyNzUsLTI1MTUyNjA5OSwtMj
-gyMTUxNDI2LC04OTU4Mzc1NTksMTQ4NzgxNTMyOF19
+eyJoaXN0b3J5IjpbMTY1ODIwNzg2NywtMjUxNTI2MDk5LC0yOD
+IxNTE0MjYsLTg5NTgzNzU1OSwxNDg3ODE1MzI4XX0=
 -->
