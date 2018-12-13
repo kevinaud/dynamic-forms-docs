@@ -37,8 +37,9 @@
 	- Logic that is different for each subclass
 		- There are some scenarios where you can't just treat everything the same. Sometimes it matters if it is a IsSelectedFormRule or a TotalPointsComparisonFormRule.
 		- One example is when you need to take a list of FormRules and convert them into their respective view models. The view model for an IsSelectedFormRule is different than the view model for a TotalPointsFormRule because there are some properties that exist on an IsSelectedFormRule but not on a TotalPointsFormRule, and vice versa.
-		- The wrong way to solve that problem:
+		
 			```
+			    // The wrong way to solve this problem
 			    foreach (var rule in rules) {
 			        if (rule is TotalPointsComparisonFormRule) {
 			            // do something
@@ -48,20 +49,9 @@
 			        }
 			        ... on and on
 				}
-		```  
-	- The wrong way to solve that problem:
-			```
-			    foreach (var rule in rules) {
-			        if (rule is TotalPointsComparisonFormRule) {
-			            // do something
-			        }
-			        if (rule is IsSelectedFormRule) {
-			            // do something
-			        }
-			        ... on and on
-				}
-		```  
 
+	
+		```  
 ## Front End
 
  - The front end consists of two VueJS applications
@@ -86,7 +76,7 @@
 		 - Most of the various grid configurations are defined at the bottom of `App.vue`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5MzkyODgxLC0zMjMxMjI5MzIsMTQxMD
+eyJoaXN0b3J5IjpbNDQwMjEyNTkzLC0zMjMxMjI5MzIsMTQxMD
 ExMDc3NCwtMjAyMzMwNzQxNCwxMzkxODI2NjA1LDE4NTI5MDcx
 NzMsMjA4ODMyNDEzNCwtMTIxNTU3MzM5NSw1Mzg1NzM0NzgsLT
 I1MTUyNjA5OSwtMjgyMTUxNDI2LC04OTU4Mzc1NTksMTQ4Nzgx
